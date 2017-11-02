@@ -1,15 +1,10 @@
 <div>This is going to be a sandbox area where we can build componenets before placing them where they will finally be used.</div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<product ng-repeat='product in products' product="testProduct"> </product>
 
 <div>
-Test Product Data:
-<br/>
-{{testProduct}}
+    My Cart
+    <cart></cart>
 </div>
 
 <br/>
@@ -19,7 +14,17 @@ Test Product Data:
 <br/>
 
 <div>
-Products Data:
+    Test Product Data:
+    <br/> {{testProduct}}
+</div>
+
 <br/>
-{{products}}
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div>
+    Products Data:
+    <br/> {{products}}
 </div>
